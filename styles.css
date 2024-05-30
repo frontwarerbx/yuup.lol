@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: white;
+}
+
+header, footer {
+    background-color: #1c1c1c;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #ddd;
+}
+
+section a {
+    color: #1E90FF;
+    text-decoration: none;
+}
+
+section a:hover {
+    color: #00BFFF;
+}
+
+main {
+    padding: 2rem 0;
+}
+
+section {
+    padding: 2rem;
+    margin: 1rem auto;
+    max-width: 800px;
+    background-color: #1c1c1c;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    color: white;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #1c1c1c;
+    color: white;
+    position: static;
+    width: 100%;
+}
+
+.project-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.project-item {
+    background-color: #333;
+    padding: 1rem;
+    border: 1px solid #444;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.project-item:hover {
+    background-color: #444;
+    border-color: #555;
+}
+
+.project-item a {
+    color: #eee;
+    text-decoration: none;
+}
+
+.project-item a:hover {
+    color: #ccc;
+}
