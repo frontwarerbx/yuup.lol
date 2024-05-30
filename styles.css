@@ -82,11 +82,11 @@ footer {
     border-color: #555;
 }
 
-.project-item a {
+.project-item h3 a {
     color: #eee;
     text-decoration: none;
 }
 
-.project-item a:hover {
+.project-item h3 a:hover {
     color: #ccc;
 }
